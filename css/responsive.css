@@ -1,0 +1,99 @@
+@media screen and (min-width: 450px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .header-logo {
+        margin-left: 10px;
+    }
+    .header-text {
+        text-align: right;
+        margin-right: 10px;
+        margin-top:  10px;
+    }
+    .text-hdr {
+        font-size: 5vw;
+    }
+    .text-item { 
+        font-size: 3vw;
+    }
+    .featured-header {
+        font-size: 4vw;
+    }
+}
+@media screen and (min-width: 700px) {
+    .featured {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .featured-item {
+        width: 44%;
+        margin: 20px 20px;
+    }
+    .text-hdr {
+        font-size: 4vw;
+    }
+    .text-item {
+        font-size: 2.5vw;
+    }
+    .featured-header {
+        font-size: 3vw;
+    }
+    .content-header {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .featured-item {
+        border: 1px solid #7d97ad;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .featured {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .featured-item {
+        margin: 20px 20px 20px 0;
+    }
+    .featured-item:last-child {
+        margin-right: 0;
+    }
+    .content-header {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .text-hdr {
+        font-size: 3vw;
+    }
+    .text-item {
+        font-size: 2vw;
+    }
+    .featured-header {
+        font-size: 2vw;
+    }
+    .header-name {
+        font-size: 3vw;
+    }
+    .content-header {
+        font-size: 2.5vw;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .header, .content, .footer {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-header {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .featured-header {
+        font-size: 1.5vw;
+    }
+    .text-item {
+        font-size: 1.5vw;
+    }
+}
